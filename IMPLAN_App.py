@@ -19,7 +19,7 @@ industry = dataGrouped.index.unique().tolist()
 category = dataGrouped.columns.unique().tolist()
 
 # Create selection options
-category_selection1 = st.selectbox("Select a Category to know Industry-wise Contribution",category)
+category_selection1 = st.selectbox("Select a Category",category)
 
 # Create a pie chart for jobs
 pie_chart = px.pie(dataGrouped,
