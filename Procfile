@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run IMPLAN_App.py
