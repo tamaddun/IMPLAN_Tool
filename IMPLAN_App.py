@@ -4,7 +4,7 @@ import plotly.express as px
 
 # Set the page title and header
 st.set_page_config(page_title='IMPLAN Results')
-st.title("Industry-wise Benefits of ISFs")
+st.title("Industry-specific Benefits of CISFs")
 
 # Load the data and group them per industry
 data = pd.read_csv('./Trade_Off_Analysis_Kazi.csv')
